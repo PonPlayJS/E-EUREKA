@@ -30,7 +30,12 @@ cd M-Eureka
 
 ## importante
 - Luego de todo eso, abre algun editor de codigo y ve a la carpeta M-Eureka
-- ahora ve a "code_generator.py" y donde pone "OPENIA_KEY" 
+- ahora ve a "code_generator.py" y donde pone "OPENIA_KEY"
+- tambien ve al archivo traning.py y modifica entre las comillas "USER_PATH"
+- Y pon en donde quires que los videos se guarden
+```        #modifica aca
+model.save("USER_PATH")
+```
 - inserta entre las comillas tu clave de api de OpenIA luego de eso, puedes ejecutar "orden.sh" con el siguiente comando en la terminal
 
 ```
@@ -40,6 +45,7 @@ chmod +x orden.sh
 
 ## Para ver tus simulaciones
 ```
+cd [USER_PATH]
 python view.py
 ```
 ![imagen](https://github.com/user-attachments/assets/c899c84a-e098-45e2-9579-eec26a2d510d)

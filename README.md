@@ -30,7 +30,7 @@ cd M-Eureka
 
 ## importante
 - Luego de todo eso, abre algun editor de codigo y ve a la carpeta M-Eureka
-- ahora ve a "code_generator.py" y donde pone "OPENIA_KEY"
+- ahora ve a "code_generator.py" y donde pone "OPENIA_KEY" pon tu clave de OpenIA
 - tambien ve al archivo traning.py y modifica entre las comillas "USER_PATH"
 - Y pon en donde quires que los videos se guarden
 ```        #modifica aca

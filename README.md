@@ -41,4 +41,4 @@ chmod +x orden.sh
 ```
 python view.py
 ```
-![imagen](https://github.com/user-attachments/assets/6eb5718c-bae3-491b-954e-dba8054ea396)
+![imagen](https://github.com/user-attachments/assets/c899c84a-e098-45e2-9579-eec26a2d510d)

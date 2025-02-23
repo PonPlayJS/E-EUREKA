@@ -37,6 +37,6 @@ for _ in range(1000):
             obs, _ = obs
 
 # guarda el fukin modelo
-model.save("/home/joaco/Escritorio/vscode/cartpole_ppo")
+model.save("USER_PATH")
 
 env.close()  # Cerrar el entorno >:D

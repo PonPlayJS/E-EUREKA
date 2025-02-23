@@ -1,5 +1,6 @@
-# M-Eureka
-Eureka simplified
+# M-Eureka 
+pre-prototipo
+Eureka simplified (https://eureka-research.github.io/)
 Ubuntu 24.04
 
 ## requisitos

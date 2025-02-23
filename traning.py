@@ -23,6 +23,7 @@ if isinstance(obs, tuple):  # Si devuelve observation, info (solo esos)
     obs, _ = obs
 
 for _ in range(1000):
+    action, _states = model.predict(obs)
     action = int(action)
     obs, rewards, done, info = env.step(action)  
     

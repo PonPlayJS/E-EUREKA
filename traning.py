@@ -1,7 +1,6 @@
 from stable_baselines3 import PPO
 from int_gym import CustomCartPoleEnv # Importa el entorno personalizado
 import numpy as np
-from custom_reward import custom_reward  # toma desde custom_reward.py 
 
 # Crear el entorno personalizado
 env = CustomCartPoleEnv()

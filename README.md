@@ -1,10 +1,11 @@
 # M-Eureka
 Eureka simplified
+Ubuntu 24.04
 
 ## requisitos
 pip
 miniconda
-
+api de OpenIA
 ## crear entorno virtual conda
 ```
 conda create --name ekmini python=3.10
@@ -24,4 +25,14 @@ pip install 'shimmy>=2.0'
 ```
 git clone https://github.com/PonPlayJS/M-Eureka
 cd M-Eureka
+```
+
+## importante
+- Luego de todo eso, abre algun editor de codigo y ve a la carpeta M-Eureka
+- ahora ve a "code_generator.py" y donde pone "OPENIA_KEY" 
+- insera entre las comillas tu clave de api de OpenIA luego de eso, puedes ejecutar "orden.sh" con el siguiente comando en la terminal
+
+```
+chmod +x orden.sh
+./orden.sh
 ```

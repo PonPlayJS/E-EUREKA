@@ -3,9 +3,9 @@ Eureka simplified
 Ubuntu 24.04
 
 ## requisitos
-pip
-miniconda
-api de OpenIA
+* pip
+* miniconda
+* api de OpenIA
 ## crear entorno virtual conda
 ```
 conda create --name ekmini python=3.10

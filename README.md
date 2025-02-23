@@ -36,3 +36,7 @@ cd M-Eureka
 chmod +x orden.sh
 ./orden.sh
 ```
+## Para ver tus simulaciones
+```
+python view.py
+```

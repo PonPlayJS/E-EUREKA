@@ -18,7 +18,7 @@ conda activate ekmini # puedes desactivarlo con "conda deativate"
 pip install gym stable-baselines3 
 pip3 install openai==0.28
 pip install gym[classic_control]
-conda install numpy=1.23.5
+pip3 install numpy==1.23.1
 pip install 'shimmy>=2.0'
 ```
 

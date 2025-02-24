@@ -2,7 +2,7 @@ import openai
 import sys
 
 # Configura tu clave de api de open ia
-openai.api_key = "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"
+openai.api_key = "OpenIA_KEY"
 
 def generate_reward_policy(prompt):
     try:

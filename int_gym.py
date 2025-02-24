@@ -1,7 +1,7 @@
 import gym
 from gym import spaces
 import numpy as np
-from custom_reward import custom_reward  # toma desde custom_reward.py 
+from custom_reward import custom_reward  # Importa una función de recompensa personalizada desde el archivo custom_reward.py
 
 class CustomCartPoleEnv(gym.Env):
     def __init__(self):
@@ -15,7 +15,7 @@ class CustomCartPoleEnv(gym.Env):
         self.action_space = gym.spaces.Discrete(2)
         
     def step(self, action):
-        # sé que hice, pero no sé explicar, mu raro
+        # Realiza un paso en el entorno con la acción proporcionada. Recibe la observación, la recompensa, el estado de finalización y la información adicional del entorno base.
         obs, reward, terminated, truncated, info = self.env.step(action)
         done = terminated or truncated
         
